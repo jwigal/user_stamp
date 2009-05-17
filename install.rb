@@ -4,7 +4,7 @@ instructions = <<EOF
 Don't forget to add user stamp to your application controller.
   
   class ApplicationController < ActionController::Base
-    user_stamp Post, Asset, Job
+    user_stamp :post, :asset, :job
   end
 
 View the README for more information.

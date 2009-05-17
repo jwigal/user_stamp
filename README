@@ -12,7 +12,7 @@ of these assumptions easily.
 2. Add user_stamp to application.rb, like the following:
 		
 		class ApplicationController < ActionController::Base
-		  user_stamp Post, Asset, Job
+		  user_stamp :post, :asset, :job
 		end
 
 

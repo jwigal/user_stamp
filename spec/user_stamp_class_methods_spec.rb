@@ -32,7 +32,7 @@ describe UserStamp::ClassMethods do
   end
   
   def user_stamp
-    PostsController.user_stamp Post, Category, Label
+    PostsController.user_stamp :post, :category, :label
   end
   
   describe "#user_stamp" do
